@@ -1,0 +1,58 @@
+.main{
+	border: 1px solid black;
+	width: 80%;
+	margin: auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: grey;
+}
+.item{
+	width: 45%;
+	height: 400px;
+	background-color: blue;
+	margin: 7px;
+	opacity: 0.9; /*прозрачность*/
+	transition: 0.5s; /*плавное выделение*/
+
+	background-size: cover;
+	background-position: center;
+	border: 8px double black;
+}
+.item:hover{
+	box-shadow: 4px 4px 11px;
+	opacity: 1;
+	transform: scale(1.1) rotate(10deg); /*увеличение элемента*/
+}
+h1{
+	text-align: center;
+}
+/*картинки*/
+.img3{
+	background-image: url(img/img3.jpg);/*..для перехода в общую папку*/
+}
+.img4{
+	background-image: url(img/img4.jpg);
+}
+.img5{
+	background-image: url(img/img5.jpg);
+}
+.img6{
+	background-image: url(img/img6.jpg);
+}
+.img7{
+	background-image: url(img/img7.jpg);
+}
+.img8{
+	background-image: url(img/img8.jpg);
+}
+.img9{
+	background-image: url(img/img9.jpg);
+}
+.img10{
+	background-image: url(img/img10.jpg);
+}
+body{
+	background-color: skyblue;
+}
