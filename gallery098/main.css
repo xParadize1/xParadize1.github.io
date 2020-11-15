@@ -1,3 +1,27 @@
+@keyframes test{
+	0%{
+		background-color: blue;
+	}
+	50%{
+		background-color: red;
+	}
+	99%{
+		background-color: green;
+	}
+	100%{
+		background-color: blue;
+	}
+
+}
+
+
+
+
+
+body{
+	background-color: skyblue;
+	animation: test 2s ease infinite;
+}
 .main{
 	border: 1px solid black;
 	width: 80%;
@@ -54,6 +78,4 @@ h1{
 .img10{
 	background-image: url(img/img10.jpg);
 }
-body{
-	background-color: skyblue;
-}
+
