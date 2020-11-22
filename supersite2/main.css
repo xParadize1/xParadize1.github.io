@@ -1,0 +1,15 @@
+.navigation{
+	border: 1px solid black;
+
+	display: flex;
+	justify-content: space-between;
+	height: 120px;
+}
+.logo{
+	border: 1px solid red;
+	margin-left: 100px;
+}
+.nav-links{
+	border: 1px solid blue;
+	margin-right: 100px;
+}
