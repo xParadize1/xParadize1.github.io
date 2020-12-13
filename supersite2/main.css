@@ -72,9 +72,41 @@ body{
 	background-color: inherit; /*прозрачность*/
 	border: 1px solid white;
 }
-
-
-
+/*.................................*/
+.about{
+	text-align: center;
+}
+.about-top{
+	margin-bottom: 40px;
+}
+.about-bot{
+	display: flex;
+	justify-content: space-around;
+}
+.about-item{
+	width: 30%;
+}
+/*.................................*/
+.Our-services{
+	padding-top: 4%;
+	background-color: #e4fdf9;
+	text-align: center;	
+}
+.serv-top{
+	margin-bottom: 40px;
+}
+.serv-bottom{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.serv-item{
+	width: 25%;
+	background-color: white;
+	padding-top: 5%;
+	margin: 15px;
+	padding-bottom: 5%;
+}
 
 
 
