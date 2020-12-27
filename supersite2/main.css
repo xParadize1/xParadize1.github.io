@@ -4,6 +4,28 @@
 body{
 	margin: 0; /*убирает отступы от краев*/
 }
+@keyframes lightning{
+	0%{
+		background-color: black;
+		box-shadow: 2px 2px 6px black;
+		margin-top: 20;
+	}
+	33%{
+		background-color: red;
+		border-radius: 20%;
+		box-shadow: 2px 2px 6px red;
+		margin: 11px;
+
+	}
+	66%{
+		background-color: green;
+		box-shadow: 2px 2px 6px green;
+	}
+	100%{
+		background-color: blue;
+		box-shadow: 2px 2px 6px blue;
+	}
+}
 .navigation{
 	display: flex;
 	justify-content: space-between;
@@ -16,9 +38,30 @@ body{
 	box-shadow: 0px 2px 8px gray;
 	z-index: 200;
 }
+.light{
+	border-radius: 100%;
+	border: 1px solid black;
+	height: 14px;
+	width: 14px;
+	margin: 3px;
+	animation: lightning 2.14s linear infinite;
+}
+.l1{
+	animation: lightning 2.9s linear infinite;
+}
+.l2{
+	animation: lightning 3s linear infinite;
+}
+.l3{
+	animation: lightning 2.5s linear infinite;
+}
+.l4{
+	animation: lightning 3.3s linear infinite;
+}
 .logo{
-		margin-left: 100px;
+	margin-left: 100px;
 	font-size: 22px;
+	display: flex;
 }
 .nav-links{	
 	margin-right: 100px;
@@ -131,9 +174,3 @@ body{
 	width: 40%;
 	height: 400px;
 }
-
-
-
-
-
-
